@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  list-style-type: none;
+  background-color: #ccc;
+}
+
+/*STYLE OF DE PAGE */
+.container {
+  width: 1200px;
+  max-width: 1200px;
+  min-height: 100vh;
+  background-color: rgb(252, 252, 252);
+  margin: 0 auto;
+  display: flex;
+  
+}
+
+.content-left {
+  background-color: rgba(2, 2, 2, 0.932);
+  min-height: 100vh;
+  color: #fff;
+  width: 300px;
+  padding: 20px;
+ display: flex;
+ justify-content: center;
+}
+
+.content-rigth {
+  background-color: rgba(1, 2, 12, 0.932);
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+  padding-left: 60px;
+  padding-bottom: 50px;
+}
+
+
+
+.avatar {
+  background-color: rgba(245, 241, 241, 0.788);
+  color: rgb(255, 255, 255);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+ .avatar img{
+   width: 100px;
+ }
+
+.title h1{
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.line{
+  width: 50px;
+  border-bottom: 3px solid rgb(62, 81, 185);
+  margin-top: 20px;
+}
+
+.sub-title{
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+
+.topicos{
+  margin-top: 40px;
+  max-width: 200px;
+  margin-bottom: 40px;
+
+}
+
+.topicos h4{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-weight: 200px;
+  font-size: 14px;
+}
+
+.topicos p{
+  font-size: 12px;
+  margin-top: 10px;
+  color: rgba(248, 246, 246, 0.747);
+}
+
+.topico-left h4{
+  margin-top: 20px;
+
+  margin-bottom: 20px;
+  
+}
+
+.topico-left p{
+  margin-top: 10px;
+  font-size: 12px;
+  color: rgba(248, 246, 246, 0.747);
+  text-decoration: none;
+
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    margin: 0;
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+  .content-left {
+   width: 100%;
+   height:450px;
+   min-height: 450px;
+  }
+  
+  .content-rigth {
+    width: 100%;
+    padding: 20px;
+    padding-left: 60px;
+    
+  }
+  
+p{
+  line-height: 18px;
+}
+}
